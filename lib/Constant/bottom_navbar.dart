@@ -77,12 +77,12 @@ class _BottomNavControllerState extends State<BottomNavController> {
 
         body: Stack(
           children: [
-           // _buildTabNavigator(index: 0, root: DashboardPage(
+            _buildTabNavigator(index: 0, root: DashboardPage(
 
-          //  )),
-          //  _buildTabNavigator(index: 1, root: const ReportPage()),
-          //  _buildTabNavigator(index: 2, root: const InventoryPage()),
-          //  _buildTabNavigator(index: 3, root: const DeliveryPage()),
+            )),
+            _buildTabNavigator(index: 1, root: const ReportPage()),
+            _buildTabNavigator(index: 2, root: const InventoryPage()),
+            _buildTabNavigator(index: 3, root: const DeliveryPage()),
           ],
         ),
 
